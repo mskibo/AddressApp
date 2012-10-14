@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   database: AddressApp
   pool: 5
-  username: mskibo
+  username: postgres
   password: scarab1a
 
 
@@ -19,12 +19,12 @@ test:
     adapter: postgresql
     database: AddressApp
     pool: 5
-    username: mskibo
+    username: postgres
     password: scarab1a
 
 production:
         adapter: postgresql
         database: AddressApp
         pool: 5
-        username: mskibo
+        username: postgres
         password: scarab1a
